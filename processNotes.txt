@@ -47,5 +47,16 @@ PHASE 3: Create the initial scaffolf for the scroll function
 
                     $(initialize)
 
+    STEP 5:  Now that you know everything works correctly, set scroll activation to change background color
+    ========================================================================================================
+        o   When the background changer runs, if the window vertical scroll is larger than half the height of the innerheight of the screen.
+        o   Test it to see if it works correctly by logging a message to appear in the console when you scroll half way down. 
 
+            function bgChanger() {                                   
+                if(this.scrollY > this.innerheight / 2) {                
+                    console.log('scroll activated');                                              
+                }
+            }
+
+    STEP 6: 
 

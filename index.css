@@ -2,11 +2,12 @@
     box-sizing: border-box;                                                      /* ... standardize widths and heights. */
     margin: 0;                                                                   /* ... set margin to 0 ... */
     padding: 0;                                                                  /* ... set padding to 0 ... */
-    font-family: 'Poppins', sans-serif;                                          /* Poppins with default of sans-serif*/
+   font-family: 'Poppins', sans-serif;                                                       /* Poppins with default of sans-serif*/  
   }
 
 body {                                                                                      /* for all elements in the body...*/
-    background: linear-gradient(to right, rgb(177, 178, 189), rgb(165, 168, 149))           /* ... the background will be a gradient ...*/ 
+    background: linear-gradient(to right, rgb(177, 178, 189), rgb(165, 168, 149));           /* ... the background will be a gradient ...*/ 
+    transition: all 0.1s ease;                                                                   /* ... transition when the background color changes */
 }
 
 header {                                                                                       /* For the header (which holds our title and subtext)*/
@@ -52,4 +53,8 @@ section .page2 {                                                                
 .page2 h1 {
     font-size: 2.5em;
     margin-bottom: .2em; 
+}
+
+.bg-active {                                                                               /* when the background color is active on scroll*/
+    background: rgb(245, 245, 245); 
 }
