@@ -11,3 +11,8 @@ PHASE 2: Create and style the first section of the page you want to transition f
         o   note: you want ot make sure you use the "height: 100vh" property in this header section because it
             it is critical to the transition we are trying to go for.
 
+PHASE 2: Create and style the second section of the page you want to transition to
+==================================================================================
+    STEP 3: Here we have another jumbotron and an image of a grey dog!  
+        o   Note that the image is outside of the page2 div so that we can have more flexibility with the design.
+
