@@ -1,0 +1,5 @@
+process notes for css transitions
+=================================
+
+STEP 1: First, create your html, css, and js documents and setup your project.
+STEP 2: 
