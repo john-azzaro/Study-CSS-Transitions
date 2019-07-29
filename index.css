@@ -28,8 +28,28 @@ header {                                                                        
 
 section {                                                                                      /* For the bottom section we want to transition into:*/
     height: 100vh;                                                                                  /* make that section 100vh so it is the same size as the viewport*/
+    display: flex;                                                                                  /* align items side by side*/
+    flex-direction: column;                                                                         /* then align items one on top of the other */
+    align-items: center;                                                                            /* align items in the middle */
+    justify-content: end;                                                                           /* and justify content at the end of the column bc the picture is a portrait of the dog*/
+
 }
 
 section img {                                                                                   /* for the image*/
+    max-width: 700px;
+    width: 70%;                                                                                     /* make the width of the image 70% of the width of the screen*/
+    height: 75%;                                                                                    /* make the height of the image 60% of the height of the screen.  note that at this point the image is squashed a little bit, so you need add object fit */
+    object-fit: cover;                                                                              /* object-covver alters the image to fit the aspect ratio when filling the elements content box*/
+                                                                                                    /* more info: https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit*/
+}
+
+section .page2 {                                                                                /* for the text in the page2 section*/
+    padding-bottom: 20px;                                                                          /* put some space between the image and the text*/
+    text-align: center;
     width: 70%;
+}
+
+.page2 h1 {
+    font-size: 2.5em;
+    margin-bottom: .2em; 
 }
