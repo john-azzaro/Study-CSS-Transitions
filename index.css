@@ -25,3 +25,11 @@ header {                                                                        
 .jumbotron > p {                                                                              /* styling for the p element in the jumbotron*/
     font-size: 1.2em;
 }
+
+section {                                                                                      /* For the bottom section we want to transition into:*/
+    height: 100vh;                                                                                  /* make that section 100vh so it is the same size as the viewport*/
+}
+
+section img {                                                                                   /* for the image*/
+    width: 70%;
+}
