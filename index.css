@@ -7,7 +7,7 @@
 
 body {                                                                                      /* for all elements in the body...*/
     background: linear-gradient(to right, rgb(177, 178, 189), rgb(165, 168, 149));           /* ... the background will be a gradient ...*/ 
-    transition: all 0.1s ease;                                                                   /* ... transition when the background color changes */
+    transition: all 0.6s ease;                                                                   /* ... transition when the background color changes */
 }
 
 header {                                                                                       /* For the header (which holds our title and subtext)*/
@@ -19,12 +19,12 @@ header {                                                                        
 }
 
 .jumbotron > h1 {                                                                              /* styling for h1 element in the jumbotron*/
-    font-size: 4.5em;
+    font-size: 3.5em;
     margin-bottom: .2em;
 }
 
 .jumbotron > p {                                                                              /* styling for the p element in the jumbotron*/
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 section {                                                                                      /* For the bottom section we want to transition into:*/
