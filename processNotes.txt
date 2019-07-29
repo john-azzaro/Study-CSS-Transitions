@@ -53,10 +53,21 @@ PHASE 3: Create the initial scaffolf for the scroll function
         o   Test it to see if it works correctly by logging a message to appear in the console when you scroll half way down. 
 
             function bgChanger() {                                   
-                if(this.scrollY > this.innerheight / 2) {                
+                if(this.scrollY > this.innerheight / 2) {                <== if the scroll is 1/2 the innerHeight of the window on scroll, then do something.
                     console.log('scroll activated');                                              
                 }
             }
 
-    STEP 6: 
+    STEP 6: in the bgChanger if/else statement, add the logic:
+    =========================================================
+        o   If the scroll is 1/2 the innerHEight fo the window on scroll, add the "bg-active" class to body.
+        o   If not (i.e. when you scroll back up), remove the class.
+
+            function bgChanger() {                
+                if(window.scrollY > window.innerHeight / 2) {
+                    $('body').addClass('bg-active');
+                } else {
+                    $('body').removeClass('bg-active');
+                }         
+            }
 

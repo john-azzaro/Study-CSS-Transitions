@@ -1,19 +1,3 @@
-
-
-
-
-
-
-// function bgChanger() {
-//     if(this.scrollY > this.innerHeight / 2) {
-//         console.log('this triggers me');
-//        $('body').addClass("bg-active");
-//     }
-// }
-
-// window.addEventListener("scroll", bgChanger);
-
-
 'use strict';
 
 function bgChanger() {                
