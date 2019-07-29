@@ -19,8 +19,14 @@ header {                                                                        
 }
 
 .jumbotron > h1 {                                                                              /* styling for h1 element in the jumbotron*/
-    font-size: 3.5em;
+    font-size: 2.5em;
     margin-bottom: .2em;
+}
+
+.accent-text {                                                                 /* for highlighted text in the h1 element: */
+    color: rgb(180, 117, 22); 
+    font-size: 3rem;
+                                                      
 }
 
 .jumbotron > p {                                                                              /* styling for the p element in the jumbotron*/
