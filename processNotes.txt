@@ -16,5 +16,36 @@ PHASE 2: Create and style the second section of the page you want to transition 
     STEP 3: Here we have another jumbotron and an image of a grey dog!  
         o   Note that the image is outside of the page2 div so that we can have more flexibility with the design.
 
-PHASE 3: 
+PHASE 3: Create the initial scaffolf for the scroll function
+============================================================
+    
+    STEP 4: Setup scaffold
+    ======================
+    o   At this point, we have everything ready to setup the scroll feature for the website.  First, create the initial
+        scaffold and add an event listener to listen for when the user scrolls up or down the screen.  
+    o   Note: you should test out the functionality first by logging "working" when you test your scroll.
+              you can also test the scrollY functionality by using "console.log(scrollY)" which will show y axis location as you scroll.
+
+                    'use strict';
+
+                    function bgChanger() {
+                        console.log('working');                      <== test to see if the scroll is working in the browser console.
+                        console.log(window.scrollY);                 <== use window.scrollY or this.scrollY to test the scroll functionality
+                    }
+
+                    function handleScroll() {
+                        $(window).on('scroll', bgChanger)
+                    }
+
+                    function setupEventListeners() {
+                        handleScroll();
+                    }
+
+                    function initialize() {
+                        setupEventListeners();
+                    }
+
+                    $(initialize)
+
+
 
