@@ -27,5 +27,6 @@ Since this study is ongoing, basic functionalities are covered first and more ad
 
 ## Screenshots
 ![transition1](https://user-images.githubusercontent.com/37447586/62085645-f029c180-b210-11e9-9c68-75cd4615eab6.png)
-![transition2](https://user-images.githubusercontent.com/37447586/62085646-f029c180-b210-11e9-8ee2-fa5abce7dff0.png)
+![transition2](https://user-images.githubusercontent.com/37447586/62085824-63333800-b211-11e9-9da4-522ab35de105.png)
+
 
