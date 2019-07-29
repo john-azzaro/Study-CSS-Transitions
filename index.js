@@ -1,7 +1,7 @@
 'use strict';
 
 function bgChanger() {                
-    if(window.scrollY > window.innerHeight / 2) {
+    if(window.scrollY > window.innerHeight / 4) {
         $('body').addClass('bg-active');
     } else {
         $('body').removeClass('bg-active');
