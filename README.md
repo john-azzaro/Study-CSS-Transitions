@@ -1,5 +1,5 @@
 # CSS Transitions Study
-
+See it Live: https://john-azzaro.github.io/Study-CSS-Transitions/
 <br>
 
 ## What is CSS Transitions Study?
@@ -8,7 +8,7 @@ The CSS Transitions Study examines the implementation of transitional effects to
 
 <br>
 
-## Does CSS Transitions Studyy feature commentary?
+## Does CSS Transitions Study feature commentary?
 Yes! I use extensive commentary (mostly in the form of my thought process) so that the new and curious can follow the logic in the program and get an idea of my reasoning behind each and every line of code.  In addition to my line-by-line commantary, I also provide a Process text file that gives a good outline of my implementation process. 
 
 <br>
