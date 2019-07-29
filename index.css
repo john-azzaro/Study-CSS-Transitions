@@ -1,5 +1,5 @@
-*, *::before, *::after {                                                       /* for all elements inside the application (including pseudo elements)... */
-    box-sizing: border-box;                                                       /* ... standardize widths and heights. */
-     margin: 0;                                                                   /* ... set margin to 0 ... */
-     padding: 0;                                                                  /* ... set padding to 0 ... */
+*, *::before, *::after {                                                       /* for all elements inside the application (including pseudo elements), remove basic margins... */
+    box-sizing: border-box;                                                      /* ... standardize widths and heights. */
+    margin: 0;                                                                   /* ... set margin to 0 ... */
+    padding: 0;                                                                  /* ... set padding to 0 ... */
   }
