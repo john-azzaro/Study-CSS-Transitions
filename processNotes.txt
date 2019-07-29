@@ -16,3 +16,5 @@ PHASE 2: Create and style the second section of the page you want to transition 
     STEP 3: Here we have another jumbotron and an image of a grey dog!  
         o   Note that the image is outside of the page2 div so that we can have more flexibility with the design.
 
+PHASE 3: 
+
