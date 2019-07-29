@@ -2,4 +2,26 @@
     box-sizing: border-box;                                                      /* ... standardize widths and heights. */
     margin: 0;                                                                   /* ... set margin to 0 ... */
     padding: 0;                                                                  /* ... set padding to 0 ... */
+    font-family: 'Poppins', sans-serif;                                          /* Poppins with default of sans-serif*/
   }
+
+body {                                                                                      /* for all elements in the body...*/
+    background: linear-gradient(to right, rgb(177, 178, 189), rgb(165, 168, 149))           /* ... the background will be a gradient ...*/ 
+}
+
+header {                                                                                       /* For the header (which holds our title and subtext)*/
+    display: flex;                                                                                  /* To center your content, set display to flex...*/
+    justify-content: center;                                                                         /* ... then center the content in the middle horizontally... */                    
+    align-items: center;                                                                             /* ... then center the content vertically.... */
+    text-align: center;                                                                              /* ... and lastly center the text itself.*/
+    height: 100vh;                                                                                   /* ... the header will be the size of the viewport...*/
+}
+
+.jumbotron > h1 {                                                                              /* styling for h1 element in the jumbotron*/
+    font-size: 4.5em;
+    margin-bottom: .2em;
+}
+
+.jumbotron > p {                                                                              /* styling for the p element in the jumbotron*/
+    font-size: 1.2em;
+}

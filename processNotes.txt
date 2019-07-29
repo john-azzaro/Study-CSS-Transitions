@@ -1,5 +1,13 @@
 process notes for css transitions
 =================================
 
-STEP 1: First, create your html, css, and js documents and setup your project.
-STEP 2: 
+PHASE 1: setup your project:
+==============================
+    STEP 1: First, create your html, css, and js documents and setup your project.
+
+PHASE 2: Create and style the first section of the page you want to transition from
+===================================================================================
+    STEP 2: In this study, we have a "jumbotron" with h1 and p elements centered in the screen
+        o   note: you want ot make sure you use the "height: 100vh" property in this header section because it
+            it is critical to the transition we are trying to go for.
+
