@@ -31,6 +31,8 @@ header {                                                                        
 
 .jumbotron > p {                                                                              /* styling for the p element in the jumbotron*/
     font-size: 1em;
+    width: 500px;
+    align-content: center;
 }
 
 section {                                                                                      /* For the bottom section we want to transition into:*/
@@ -51,7 +53,8 @@ section img {                                                                   
 }
 
 section .page2 {                                                                                /* for the text in the page2 section*/
-    padding-bottom: 20px;                                                                          /* put some space between the image and the text*/
+    padding-top: 80px;
+    padding-bottom: 40px;                                                                          /* put some space between the image and the text*/
     text-align: center;
     width: 70%;
 }
