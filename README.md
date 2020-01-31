@@ -14,6 +14,7 @@ The CSS Transitions Study examines the implementation of transitional effects to
 <dd>
 
 ### Primary objective revolves around the background-active class.
+----------
 So the transition for the study is pretty basic, changes the color of the background as the user scrolls down. The effect itself is pretty straight forward, specifically that on scroll, if the if the user scroll is greater than the inner height of the window (divided by 4 so it changes at a later point in the scoll), then add the class "background-active" class. If not, remove it. 
 ```JavaScript
 function backgroundChange() {                      
