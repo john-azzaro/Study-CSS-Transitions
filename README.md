@@ -9,7 +9,6 @@ The CSS Transitions Study examines the implementation of transitional effects to
 
 ## What are the key takeaways from the calculator study?
 
-<br>
 <dl> 
 <dd>
 
