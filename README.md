@@ -5,6 +5,19 @@ See it Live: https://john-azzaro.github.io/Study-CSS-Transitions/
 ## What is CSS Transitions Study?
 The CSS Transitions Study examines the implementation of transitional effects to web pages using HTML, CSS, JavaScript, and jQuery for the buisness logic.  In this particular study, when the user scrolls down the page, the background will change colors as the second page reveals itself.  
 
+<br>
+
+## What are the key takeaways from the calculator study?
+
+<br>
+<dl> 
+<dd>
+
+
+
+
+</dd>
+</dl>
 
 <br>
 
