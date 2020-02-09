@@ -13,8 +13,6 @@ Here are a few questions from the study to explore:
 * [Screenshots](#Screenshots)
 <br>
 
-<br>
-
 ## What are the key takeaways from the calculator study?
 
 <dl> 
