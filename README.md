@@ -7,9 +7,9 @@ The CSS Transitions Study examines the implementation of transitional effects to
 
 Here are a few questions from the study to explore:
 
-* [What are the key takeaways from the calculator study?](#What are the key takeaways from the calculator study?)
-* [Does CSS Transitions Study feature commentary?](#Does CSS Transitions Study feature commentary?)
-* [What are the key features of CSS Transitions Study?](#What are the key features of CSS Transitions Study?)
+* [What are the key takeaways from the calculator study?](#What-are-the-key-takeaways-from-the-calculator-study)
+* [Does CSS Transitions Study feature commentary?](#Does-CSS-Transitions-Study-feature-commentary)
+* [What are the key features of CSS Transitions Study?](#What-are-the-key-features-of-CSS-Transitions-Study)
 * [Screenshots](#Screenshots)
 <br>
 
